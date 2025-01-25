@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #917e8b;
+}
+main{
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: 1s;
+    position: absolute;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+.nav button{
+    font-size: 25px;
+    padding: 5px;
+}
